@@ -1,0 +1,143 @@
+body{
+    margin:0;
+    padding: 0;
+    
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    background-image: url(./imgs/images-20221006T175700Z-001/images/home-bg.jpg);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#txtlogo{
+    margin-left: 40px;
+    width: 60%;
+    color: white;
+}
+
+#span-logo{
+    color: rgb(202, 105, 15);
+
+}
+
+#menu{
+    width: 40%;
+    margin-right: 40px;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgba(249, 119, 5, 0.937);
+    font-size: 90%;
+}
+
+nav ul li{
+    list-style: none;
+    justify-items: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#inicio{
+    background-image: url(./imgs/images-20221006T175700Z-001/images/home-bg.jpg);
+    width: 100%;
+    height: 750px;
+}
+
+.conteiner-inicio{
+    display: flex;
+    justify-content: space-between;
+}
+
+#img-inicio{
+    width: 50%;
+    height: 110%;
+}
+
+#txt-inicio{
+    width: 50%;
+    height: 110%;
+    margin: 200px 150px;
+    font-size: 180%;
+    color: white;
+}
+
+#txt-inicio p{
+    color: rgb(202, 105, 15);
+    margin-bottom: -30px;
+    font-size: 80%;
+}
+
+#txt-inicio a{
+    background: rgb(47, 146, 47);
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+    animation-name: button-load;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    position: relative;
+    right: 0;
+    bottom: 30px;
+    z-index: 1;
+}
+
+#txt-inicio a:hover{
+    padding: 15px;
+    background: rgb(28, 123, 28);
+    margin: 45px;
+    box-shadow: 4px 5px;
+}
+
+@keyframes button-load{
+    0%{bottom: 30px;}
+    40%{bottom: 40px;}
+    75%{bottom: 20px;}
+    100%{bottom: 30px;}
+}
+
+#sobre{
+    background-image: url(./imgs/images-20221006T175700Z-001/images/home-bg.jpg);
+    display: flex;
+}
+
+#txt-about{
+    width: 35%;
+    font-size: 140%;
+    padding: 60px 100px;
+    text-align: justify;
+    color: white;
+    text-align: left;
+}
+
+#span-about{
+    color: rgba(181, 70, 2, 0.906);
+    font-size: 100%;
+    position: relative;
+    top: 40px;
+}
+
+#txt-about h3{
+    font-size: 210%;
+}
+
+#txt-about p{
+    font-size: 85%;
+    position: relative;
+    top: -20px;
+}
