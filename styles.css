@@ -114,10 +114,11 @@ nav ul li{
 #sobre{
     background-image: url(./imgs/images-20221006T175700Z-001/images/home-bg.jpg);
     display: flex;
+    margin: 0;
 }
 
 #txt-about{
-    width: 35%;
+    width: 40%;
     font-size: 140%;
     padding: 60px 100px;
     text-align: justify;
@@ -136,8 +137,88 @@ nav ul li{
     font-size: 210%;
 }
 
-#txt-about p{
+#txt-about #txt-about-text{
     font-size: 85%;
     position: relative;
     top: -20px;
+}
+
+#about-list{
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+#info-cursos{
+    background-image: url(./imgs/images-20221006T175700Z-001/images/counter-bg.jpg);
+    color: white;
+    width: 100%;
+    height: 120px;
+    margin-top: -16px;
+}
+
+/*div dentro de #info-cursos*/
+.info-cursos{
+    display: flex;
+    justify-content: space-around;
+    font-size: 130%;
+}
+
+.info-cursos span{
+    font-size: 250%;
+    color: rgba(181, 70, 2, 0.906);
+}
+
+#cursos{
+   /* background-image: url(./imgs/images-20221006T175700Z-001/images/home-bg.jpg);*/
+   background-color: rgb(20, 5, 0);
+   color: white;
+}
+
+#cursos-header{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 150%;
+}
+
+#span-cursos{
+    color: rgba(181, 70, 2, 0.906);
+    font-size: 80%;
+}
+
+#tipos-de-cursos{
+    width: 95%;
+    display:grid;
+    padding-left: 5%;
+    grid-template-areas: "curso-one curso-two curso-three"
+                        "curso-four curso-five curso-six";
+}
+
+#tipos-de-cursos img{
+    width: 350px;
+    height: 300px;
+}
+
+#curso-one{
+    grid-area: curso-one;
+}
+
+#curso-two{
+    grid-area: curso-two;
+}
+
+#curso-three{
+    grid-area: curso-three;
+}
+
+#curso-four{
+    grid-area: curso-four;
+}
+
+#curso-five{
+    grid-area: curso-five;
+}
+
+#curso-six{
+    grid-area: curso-six;
 }
