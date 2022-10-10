@@ -198,3 +198,60 @@ nav ul li{
     width: 350px;
     height: 300px;
 }
+
+.texto-cursos{
+    text-align: justify;
+    text-indent: 20px;
+    width: 350px;
+    height: 200px;
+    font-size: 140%;
+}
+
+.texto-cursos a{
+    padding: 10px;
+    background-color: rgba(248, 96, 2, 0.906);
+    text-decoration: none;
+    color: white;
+    border-radius: 5%;
+}
+
+.texto-cursos a:hover{
+    padding: 14px;
+    background:  rgba(214, 77, 5, 0.991);
+    box-shadow: 3px 4px black;
+}
+
+#contato{
+    background-image: url(./imgs/images-20221006T175700Z-001/images/footer-bg.jpg);
+    width: 100%;
+    height: 200px;
+}
+
+#links h6{
+    margin: 0;
+    font-size: 140%;
+    color: white;
+    padding: 10px;
+}
+
+#links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 130%;
+}
+
+#links ul li{
+    margin-bottom: 20px;
+}
+
+footer p{
+    font-size: 200%;
+    background-image: url(./imgs/images-20221006T175700Z-001/images/footer-bg.jpg);
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+footer span{
+    color: rgb(218, 114, 10);
+}
