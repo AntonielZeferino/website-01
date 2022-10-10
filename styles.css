@@ -198,27 +198,3 @@ nav ul li{
     width: 350px;
     height: 300px;
 }
-
-#curso-one{
-    grid-area: curso-one;
-}
-
-#curso-two{
-    grid-area: curso-two;
-}
-
-#curso-three{
-    grid-area: curso-three;
-}
-
-#curso-four{
-    grid-area: curso-four;
-}
-
-#curso-five{
-    grid-area: curso-five;
-}
-
-#curso-six{
-    grid-area: curso-six;
-}
